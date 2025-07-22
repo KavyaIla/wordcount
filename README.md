@@ -89,14 +89,6 @@ Send raw text to be analyzed.
   "message": "Your essay has 12 words and 2 numbers."
 }
 ```
-
-## 🧼 Linting & Formatting
-
-```bash
-npm run lint
-npm run format
-```
-
 ---
 
 ## 📜 License
