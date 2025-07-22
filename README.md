@@ -21,11 +21,7 @@ According to [Vercel's Express integration guide](https://vercel.com/guides/usin
 ### `vercel.json`
 
 ```json
-[{
-  "builds": [
-    { "src": "api/index.ts", "use": "@vercel/node" }
-  ]
-}]
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
 ```
 
 This tells Vercel to treat `api/index.ts` as a serverless function using the Node.js runtime.
